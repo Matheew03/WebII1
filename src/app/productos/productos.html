@@ -1,0 +1,33 @@
+<section class="productos-section">
+    <h2 class="section-title">Productos</h2>
+
+    <div class="grid-productos">
+        @for (producto of productos; track producto.id) {
+        <div class="card-juego">
+            <div class="imagen-container">
+
+                @if (producto.stock === 0) {
+                <span class="badge-agotado">Agotado</span>
+                }
+            </div>
+
+            <div class="card-body">
+                <span class="categoria">{{ producto.categoria }}</span>
+                <h3 class="juego-titulo">{{ producto.titulo }}</h3>
+
+                <div class="card-footer-juego">
+                    <span class="precio">${{ producto.precio }}</span>
+
+                    <button class="btn-comprar" [disabled]="producto.stock === 0">
+                        @if (producto.stock > 0) {
+                        Comprar
+                        } @else {
+                        Sin Stock
+                        }
+                    </button>
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+</section>

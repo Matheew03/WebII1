@@ -1,0 +1,51 @@
+:host {
+    display: block;
+    background-color: #090d16;
+    border-top: 2px solid #ec4899;
+    padding: 2rem 1.5rem 1rem 1.5rem;
+    color: #64748b;
+    font-family: sans-serif;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-link {
+    color: #94a3b8;
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+    color: #ec4899;
+    text-shadow: 0 0 8px rgba(236, 72, 153, 0.6);
+}
+
+.footer-credits {
+    text-align: center;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.game-status {
+    color: #34d399;
+    font-weight: 700;
+    text-shadow: 0 0 8px rgba(52, 211, 153, 0.4);
+}

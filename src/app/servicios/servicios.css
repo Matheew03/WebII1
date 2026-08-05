@@ -1,0 +1,59 @@
+:host {
+    display: block;
+    background-color: #0b111e;
+    min-height: 100vh;
+    padding: 5rem 2rem;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.servicios-section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-title {
+    color: #ffffff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.grid-servicios {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+}
+
+.card-servicio {
+    background-color: #1e293b;
+    border: 1px solid rgba(139, 92, 246, 0.15);
+    border-radius: 12px;
+    padding: 2.5rem 2rem;
+    text-align: center;
+    position: relative;
+    transition: transform 0.2s;
+}
+
+.card-servicio:hover {
+    transform: translateY(-5px);
+    border-color: #8b5cf6;
+}
+
+.servicio-icon {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-servicio h3 {
+    color: #ffffff;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.card-servicio p {
+    color: #94a3b8;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
