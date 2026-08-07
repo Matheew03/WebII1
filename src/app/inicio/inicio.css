@@ -5,7 +5,7 @@
     font-family: system-ui, -apple-system, sans-serif;
 }
 
-/* Banner Principal */
+
 .hero-section {
     background: linear-gradient(135deg, #1e1b4b 0%, #0f172a 100%);
     border-bottom: 2px solid rgba(139, 92, 246, 0.3);
@@ -51,7 +51,7 @@
     background-color: #a78bfa;
 }
 
-/* Características */
+
 .features-section {
     max-width: 1200px;
     margin: 0 auto;
